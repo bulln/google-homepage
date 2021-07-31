@@ -1,0 +1,41 @@
+h1{
+    color: red;
+}
+
+#top_box{
+    height: 50px;
+    display: flex;
+}
+
+#top_box1{
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: aqua;
+}
+
+#top_box2{
+    display: flex;
+    width: 200px;
+    height: 100%;
+    background-color: red;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gb_f{
+    display: flex;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+#logo{
+    display: block;
+    margin: auto;
+}
+
+#logo_box{
+    height: 500px;
+}
