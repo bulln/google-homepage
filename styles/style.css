@@ -1,23 +1,18 @@
-h1{
-    color: red;
+a{
+    text-decoration: none;
+    color:rgb(65, 65, 65);
 }
 
-#top_box{
+#top-box{
     height: 50px;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
-#top_box1{
-    width: calc(100% - 200px);
-    height: 100%;
-    background-color: aqua;
-}
-
-#top_box2{
+.top-items{
     display: flex;
-    width: 200px;
     height: 100%;
-    background-color: red;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -28,38 +23,116 @@ h1{
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
-    vertical-align: middle;
+    padding: 0px 10px 0px 10px;
+}
+
+.gb_c{
+    display: flex;
+    align-content: center;
+    padding: 5px;
+}
+
+.gb_c:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
 }
 
 .gb_c img{
     display: flex;
     height: 30px;
     width: 30px;
-    vertical-align: middle;
+}
+
+#pic img{
+    display: flex;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
 }
 
 #logo{
     display: flex;
     width: auto;
     height: auto;
-    max-width: 250px;
+    max-width: 270px;
+    margin-bottom: 38px;
 }
 
-#logo_box{
+#content{
     display: flex;
-    height: 300px;
+    height: 280px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+}
+
+#search-box{
+    display:flex;
+    height: 40px;
+    width: 55%;
+    max-width: 600px;
+    border-radius: 20px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+#search-box:hover{
+    box-shadow: 0 0 4px rgb(211, 211, 211);
+}
+
+#search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30px;
+    padding-left: 2%;
+}
+
+#search-icon img{
+    display: flex;
+    height: 22px;
+    width: auto;
+}
+
+#mic-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30px;
+    padding-right: 2%;
+}
+
+#mic-icon img{
+    display: flex;
+    height: 22px;
+    width: auto;
+    
 }
 
 #search-bar{
     display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex: 0 1 auto;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+    border: 0;
 }
 
-#input-box{
-    width: 100%;
-    height: 30px;
-    flex: 0 1 auto;
+.bot-box{
+    display: flex;
+    background-color:rgb(236, 236, 236);
+    justify-content: space-evenly;
+}
+
+.bot-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bot-btn{
+    display: flex;
+    padding: 10px;
 }
