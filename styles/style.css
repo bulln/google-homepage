@@ -17,6 +17,17 @@ a:hover{
     text-decoration: underline;
 }
 
+html{
+height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 #top-box{
     height: 50px;
     width: 100%;
@@ -72,13 +83,11 @@ a:hover{
 #content{
     display: flex;
     padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 280px;
+    margin-bottom: 20%;
+    width: 100%;    
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    align-self: center;
 }
 
 #search-box{
@@ -154,8 +163,9 @@ footer{
     display: flex;
     flex-direction: column;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    justify-self: self-end;
+    /*position: absolute;
+    bottom: 0;*/
 }
 
 .bot-box{
